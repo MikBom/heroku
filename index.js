@@ -5,7 +5,7 @@ var http = require("http");
 http
     .createServer(function(request,response){
         response.writeHead(200,{"Content-Type":"text/html"});
-        response.write("Please go to <a href='https://www.w3schools.com'>Mikkos github page</a> "); // Write a response to the client
+        response.write("Please go to <a href='https://github.com/MikBom/guestbook.git'>Mikkos github page</a> "); // Write a response to the client
         response.end(""); // End response
     })
     .listen(PORT); // The server object listens on port
